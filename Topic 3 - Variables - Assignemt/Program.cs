@@ -11,7 +11,7 @@
             int room, gradYear;
             room = 29;
             gradYear = 2028;
-            const double Pi = 3.14, Radius = 5;
+            const double Pi = 3.14, Radius = 5, Base = 5, Height = 7;
             double item1Price = 2.99, area = Pi * Radius * Radius;
             
 
@@ -20,7 +20,9 @@
             Console.WriteLine(learning);
 
             Console.WriteLine("My name is " + firstName + " " + lastName + " and I'll graduate in " + gradYear + ".");
-            Console.WriteLine("The area of this circle is " + area);   
+            Console.WriteLine("The area of this circle is " + area);
+            Console.WriteLine("The area of this Tringle is " + 1 / 2.0 * Base * Height + ".");
+
 
         }
     }
